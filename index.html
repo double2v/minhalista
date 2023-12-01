@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Biblioteca</title>
+    <style>
+        body {
+            background-color: #93C572;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.8); /* Cabeçalho transparente com fundo branco opaco */
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #93C572;
+            padding: 10px;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .column {
+            width: 30%;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.9); /* Fundo das colunas branco opaco */
+            margin: 10px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Minha Biblioteca</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="biblioteca.html">Biblioteca</a>
+        <a href="minhaLista.html">Minha Lista</a>
+    </nav>
+
+    <section>
+        <div class="column">
+            <h2>Mais Votados</h2>
+            <!-- Conteúdo da coluna "Mais Votados" aqui -->
+        </div>
+        <div class="column">
+            <h2>Favoritos do Mês</h2>
+            <!-- Conteúdo da coluna "Favoritos do Mês" aqui -->
+        </div>
+        <div class="column">
+            <h2>Títulos Novos</h2>
+            <!-- Conteúdo da coluna "Títulos Novos" aqui -->
+        </div>
+    </section>
+
+</body>
+</html>
